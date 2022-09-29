@@ -62,10 +62,10 @@ body {
   justify-content: space-between;
   height: 100%;
   font-size: 1rem;
-  /* width: 50%; */
+  width: 12vw;
 }
 
-.firts-element-btn {
+.first-element-btn {
   background-color: rgba(255, 255, 255, 0.8);
   /* font-size: 1.5rem; */
   padding: 1rem 0.5rem;
@@ -78,14 +78,15 @@ body {
   align-items: center;
   justify-content: space-around;
   user-select: none;
+  width: 100%;
 }
 
-.firts-element-btn ion-icon {
+.first-element-btn ion-icon {
   margin-right: 0.5rem;
   font-size: 2rem;
 }
 
-.firts-element-btn span {
+.first-element-btn span {
   font-size: 1.5rem;
   white-space: nowrap;
   overflow: hidden;
@@ -105,6 +106,7 @@ body {
   border-radius: 50%;
   font-size: 2rem;
   cursor: pointer;
+  width: 4vw;
 }
 
 /* Animation when hovering the card */
