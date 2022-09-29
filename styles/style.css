@@ -78,6 +78,9 @@ body {
   align-items: center;
   justify-content: space-around;
   user-select: none;
+
+  /* this was the missing piece for truncating the 
+  word in the first-element */
   width: 100%;
 }
 
@@ -86,6 +89,7 @@ body {
   font-size: 2rem;
 }
 
+/* we truncate the word */
 .first-element-btn span {
   font-size: 1.5rem;
   white-space: nowrap;
@@ -126,12 +130,18 @@ body {
   transform: translateX(0%);
 }
 
-.btn,
-.pill {
+/* wanted to be able to animate the save button
+when is hovered */
+#pinterest-card .pill:hover {
+  transform: scale(1.05);
+  background-color: black;
+}
+
+.btn {
   transition: transform 150ms ease;
 }
 
 .btn:hover,
-.pill:hover {
+.btn:focus {
   transform: scale(1.025);
 }
